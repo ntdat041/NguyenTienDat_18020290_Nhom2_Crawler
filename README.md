@@ -1,9 +1,9 @@
 # NguyenTienDat_18020290_Nhom2_Crawler
 ## Mô tả mã nguồn:
-Đây là mã nguổn cho việc crawl dữ liệu từ các trang báo hoặc trang thương mại điện tử, cụ thể là 3 trang [Vietnamnet](https://vietnamnet.vn/)
+* Đây là mã nguồn cho việc crawl dữ liệu từ các trang báo hoặc trang thương mại điện tử, cụ thể là 3 trang [Vietnamnet](https://vietnamnet.vn/)
 ,[Lao Động](https://laodong.vn/) và [FPT Shop](https://fptshop.com.vn/)
-### Mã nguồn sử dụng phiên bản Python 3.8 và phiên bản Scrapy 2.2.0
-#### Mã nguồn bao gồm:
+* Mã nguồn sử dụng phiên bản Python 3.8 và phiên bản Scrapy 2.2.0
+### Mã nguồn bao gồm:
 * name: Tên của con bọ, với mục đích khi run mình sẽ gọi tên để chỉ định con bọ(spider) nào sẽ đi crawl cho mình
 - start_urls: Có thể coi chính là địa chỉ bắt đầu cho spider
 * total_pages= set() : tạo một tập hợp để tí nữa ta có thể đếm số link đã chạy và dừng lại
